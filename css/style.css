@@ -720,10 +720,11 @@ textarea:focus {
 
 /*Service*/
 #service {
-	margin-top: 100px;
+	margin-top: 10px;
 	background-attachment: scroll;
     padding-bottom: 0px;
     padding-top: 0px;
+	background:#f1f2f3;
 }
 
 #service .col-md-6 {
@@ -760,9 +761,9 @@ textarea:focus {
 
 .services-style-one .services-column {
 	position: relative;
-	width: 50%;
+	width:100%;
 	float: left;
-	background: #f2f3f4;	
+	background: #f1f2f3;	
 }
 
 .services-style-one .service-block {
@@ -772,28 +773,28 @@ textarea:focus {
 
 .services-style-one .services-column .content-outer {
 	position: relative;
-	float: right;
-	max-width: 700px;
-	padding: 80px 20px 40px 40px;	
+	padding: 40px 80px;	
 }
 
 .services-style-one .services-column .icon-box {
 	font-size: 36px;
 	margin-bottom: 15px;
 	line-height: 1px;
+	text-align:center;
 	color: #01b1d7;	
 }
 
 .services-style-one .services-column h4 {
 	font-size: 14px;
 	margin-bottom: 10px;
+	text-align:center;
 	color: #1c1c1c;	
 }
 
 .services-style-one .services-column .text {
 	font-size: 13px;
 	color: #5a5a5a;
-	max-width: 250px;	
+	max-width: 340px;	
 }
 
 .services-style-one .content-column {
@@ -1149,8 +1150,9 @@ textarea:focus {
 
 /*Client*/
 #client {
-	margin-top: 100px;
+	margin: 50px 0;
 	text-align: center;
+
 }
 
 #client .col-md-2 {
