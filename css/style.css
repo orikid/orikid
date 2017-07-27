@@ -724,7 +724,7 @@ textarea:focus {
 	background-attachment: scroll;
     padding-bottom: 0px;
     padding-top: 0px;
-	background:#f1f2f3;
+	background:#f2f3f4;
 }
 
 #service .col-md-6 {
@@ -763,7 +763,7 @@ textarea:focus {
 	position: relative;
 	width:100%;
 	float: left;
-	background: #f1f2f3;	
+	background: #f2f3f4;	
 }
 
 .services-style-one .service-block {
@@ -1051,7 +1051,12 @@ textarea:focus {
 	color: #8e8e8e;
 	margin-bottom: 50px;
 }
-
+#client h2{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	text-transform: uppercase;
+}
 .validation {
     color: red;
     display:none;
